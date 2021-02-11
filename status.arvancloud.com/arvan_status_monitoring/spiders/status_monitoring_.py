@@ -26,7 +26,7 @@ class StatusMonitoringSpider(scrapy.Spider):
                 #"team": "test"
             },
             "annotations": {
-                "description": svc_inf_name + " status is " + "'" + svc_inf_status + "'" + "<br>",
+                "description": svc_inf_name + " has " + "'" + svc_inf_status + "'" + "<br>",
                 "summary": "Arvancloud has incident in their services or infra"
             }
         }
