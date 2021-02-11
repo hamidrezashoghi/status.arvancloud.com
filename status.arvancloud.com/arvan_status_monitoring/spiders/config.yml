@@ -1,0 +1,8 @@
+- config:
+    # Run monitoring service every 'cron' seconds(default is 15s)
+    # also you should wait x seconds for read this config file again
+    cron: 15
+
+    # Waiting x seconds before firing alerts (default is 3min)
+    wait: 180
+

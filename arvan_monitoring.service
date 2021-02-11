@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitoring Arvancloud services and infra (https://status.arvancloud.com)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env bash -c "cd /opt/status.arvancloud.com/arvan_status_monitoring/spiders/ && scrapy crawl status_monitoring"
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target

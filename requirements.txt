@@ -1,0 +1,5 @@
+setuptools
+scrapy
+regex
+pylertalertmanager
+PyYaml
